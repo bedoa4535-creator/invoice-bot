@@ -11,8 +11,8 @@ from docx.oxml.ns import qn
 from docx.oxml import OxmlElement
 import io
 
-BOT_TOKEN = "8856222347:AAFLpWdMsW69wGgnWLsuvChF3RaV6hZlHeY"
-
+import os
+BOT_TOKEN = os.environ.get("BOT_TOKEN")
 logging.basicConfig(format='%(asctime)s - %(levelname)s - %(message)s', level=logging.INFO)
 
 FIELDS = ['الاسم', 'الرقم', 'العنوان', 'اللون', 'العرض', 'المقاس', 'العدد', 'الاجمالي']
