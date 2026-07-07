@@ -11,7 +11,7 @@ from docx.oxml import OxmlElement
 import io
 
 BOT_TOKEN = os.environ.get("BOT_TOKEN")
-ADMIN_ID = int(os.environ.get("ADMIN_ID", "0"))
+ADMIN_ID = int(os.environ.get("909630778", "0"))
 
 logging.basicConfig(format='%(asctime)s - %(levelname)s - %(message)s', level=logging.INFO)
 
